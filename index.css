@@ -1,0 +1,298 @@
+body{
+    background-image: url(/index5.jpg);
+    background-size: cover;
+}
+    
+
+.block{
+    display: block;
+    position: sticky;
+}
+.box1{
+    display: flex;
+    float: left 50px;
+}
+
+
+.display{
+    display: flex;
+    margin: 25px;
+    position: absolute;
+    right: 50px;
+    float: right 10px;
+
+}
+
+
+.sahara{
+    position: absolute;
+    top: 40%;
+    display: flex;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: none;
+
+}
+.doodle1{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+transition-duration: 0.5s;
+    flex-direction: row;
+
+margin: 10px;
+background-image: url(/index1.png);
+background-size: cover;
+padding: 15px;
+
+
+}
+.doodle1:hover{transform: translateY(-10px);}
+
+    
+    
+
+
+    
+
+p{
+float: inline-start 20px;
+
+}
+.para{
+    text-align: left;
+    color: aliceblue;
+    font-size: medium;
+
+}
+.doodle2{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition-duration: 02;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+
+margin: 10px;
+background-image: url(index3.png);
+background-size: cover;
+padding: 15px;
+flex-direction: column;
+
+
+
+
+}
+.doodle2:hover{transform: translateY(-10px);}
+
+
+
+.doodle3{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition-duration:0.5s;
+    border-radius: 20px;
+
+margin: 10px;
+background-image: url(index4.png);
+background-size: cover;
+padding: 15px;
+flex-direction: column;
+
+}
+.doodle3:hover{transform: translateY(-10px);}
+
+.doodle4{
+        width: 250px;
+        height: 250px;
+        cursor: pointer;
+        transition: 2s;
+        border-radius: 20px;
+    transition-duration: 0.5s;
+    margin: 10px;
+    background-image: url(index2.png);
+    background-size: cover;
+    padding: 15px;
+    flex-direction: row;
+
+}
+.doodle4:hover{transform: translateY(-10px);}
+h4{
+    font-size: medium;
+    color: azure;
+}
+.button{
+    width: 140px;
+    color: red;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 12px 0;
+    background: wheat;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition-duration: 02s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+@media (min-width:350px) and (max-width:500px){
+
+    body{
+        background-image: url(index5.jpg);
+        background-size: cover;
+        width: 400px;
+    }
+        
+    
+    .block{
+        display: block;
+        position: sticky;
+        width:400px;
+
+    }
+    .box1{
+        display: flex;
+        float: left 50px;
+    }
+    
+    
+    .display{
+        display: block;
+        margin: 25px;
+        position: absolute;
+        right: 50px;
+        float: right 10px;
+    
+    }
+    
+    
+    .sahara{
+        position: absolute;
+        top: 40%;
+        display: block;
+    }
+    .flex-container{
+        display: block;
+        flex-wrap: wrap;
+        background-color: none;
+    
+    }
+    .doodle1{
+    
+        width: 320px;
+        height: 100px;
+        cursor: pointer;
+        border-radius: 20px;
+    transition-duration: 0.5s;
+        flex-direction: column;
+        border: solid 2px royalblue;
+    
+    margin: 10px;
+    background-image: url(index1.png);
+    background-size: cover;
+    padding: 15px;
+    
+    
+    }
+    .doodle1:hover{transform: translateY(-10px);}
+    
+        
+        
+    
+    
+        
+    
+    p{
+    float: inline-start 20px;
+    
+    }
+    .para{
+        text-align: left;
+        color: aliceblue;
+        font-size: medium;
+    
+    }
+    .doodle2{
+        width: 320px;
+        height: 100px;
+        cursor: pointer;
+        transition-duration: 02;
+        border-radius: 20px;
+        transition-duration: 0.5s;
+        border: solid 2px royalblue;
+    margin: 10px;
+    background-image: url(/index3.png);
+    background-size: cover;
+    padding: 15px;
+    flex-direction: column;
+    
+    
+    
+    
+    }
+    .doodle2:hover{transform: translateY(-10px);}
+    
+    
+    
+    .doodle3{
+        width: 320px;
+        height: 100px;
+        cursor: pointer;
+        transition-duration:0.5s;
+        border-radius: 20px;
+        border: solid 2px royalblue;
+    margin: 10px;
+    background-image: url(index4.png);
+    background-size: cover;
+    padding: 15px;
+    flex-direction: column;
+    
+    }
+    .doodle3:hover{transform: translateY(-10px);}
+    
+    .doodle4{
+            width: 320px;
+            height: 100px;
+            cursor: pointer;
+            transition: 2s;
+            border-radius: 20px;
+        transition-duration: 0.5s;
+        margin: 10px;
+        background-image: url(index2.png);
+        background-size: cover;
+        padding: 15px;
+        flex-direction: row;
+        border: solid 2px royalblue;
+    }
+    .doodle4:hover{transform: translateY(-10px);}
+    h4{
+        font-size: medium;
+        color: azure;
+    }
+    .button{
+        width: 140px;
+        color: red;
+        font-size: 12px;
+        font-weight: bolder;
+        padding: 12px 0;
+        background: wheat;
+        border: 0;
+        border-radius: 20px;
+        margin-left: 80px;
+        margin-top: 30px;
+        cursor: pointer;
+        transition-duration: 02s;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .button:hover{transform: translateY(-10px);}
+
+}
+    
